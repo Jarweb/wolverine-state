@@ -15,44 +15,44 @@ yarn add @jarzzzi/wolverine-state
 
 ```code
 const initialState: StoreData = {
-	count: 0,
-	show: false
+ count: 0,
+ show: false
 }
 
 const store = createStore(initialState)
 
 function Demo () {
-	const { count } = useConnect<StoreData, Partial<StoreData>>((state) => {
-		return { count: state.count }
-	})
+ const { count } = useConnect<StoreData, Partial<StoreData>>((state) => {
+   return { count: state.count }
+ })
 
-	const inc = () => {
-		store.produce((state) => {
-			state.count++
-		})
-	}
+ const inc = () => {
+   store.produce((state) => {
+     state.count++
+   })
+  }
 
-	const dec = () => {
-		store.produce((state) => {
-			state.count--
-		})
-	}
+ const dec = () => {
+  store.produce((state) => {
+   state.count--
+  })
+ }
 
-	return (
-		<div>
-			<div>{count}</div>
-			<button onClick={inc}>inc</button>
-			<button onClick={dec}>dec</button>
-		</div>
-	)
+ return (
+   <div>
+    <div>{count}</div>
+    <button onClick={inc}>inc</button>
+    <button onClick={dec}>dec</button>
+   </div>
+  )
 }
 
 function App () {
-	return (
-		<Provider value={store}>
-			<Demo />
-			<Text />
-		</Provider>
-	)
+ return (
+   <Provider value={store}>
+    <Demo />
+    <Text />
+   </Provider>
+ )
 }
 ```
