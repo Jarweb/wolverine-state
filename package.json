@@ -1,0 +1,39 @@
+{
+  "name": "@jarzzzi/wolverine-state",
+  "version": "1.0.0",
+  "description": "",
+  "entry": "src/index.ts",
+  "module": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "parcel serve ./demo/index.html",
+    "build": "rollup -c rollup.config.ts",
+    "version": "npm version patch",
+    "publish": "npm publish  --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarweb/wolverine-state.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarweb/wolverine-state/issues"
+  },
+  "homepage": "https://github.com/Jarweb/wolverine-state#readme",
+  "dependencies": {
+    "immer": "^6.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@jarzzzi/nidavel": "^1.0.6",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "parcel-bundler": "^1.12.4",
+    "rollup": "^2.6.1",
+    "typescript": "^3.8.3"
+  }
+}
