@@ -16,7 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/Jarweb/wolverine-state.git"
   },
-  "keywords": ["react", "react hook", "immer", "state management"],
+  "keywords": [
+    "react",
+    "react hook",
+    "immer",
+    "state management"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
