@@ -1,6 +1,6 @@
 {
   "name": "@jarzzzi/wolverine-state",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "entry": "src/index.ts",
   "module": "dist/esm/index.js",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/Jarweb/wolverine-state.git"
   },
-  "keywords": [],
+  "keywords": ["react", "react hook", "immer", "state management"],
   "author": "",
   "license": "ISC",
   "bugs": {
