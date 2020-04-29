@@ -13,7 +13,7 @@ yarn add @jarzzzi/wolverine-state
 
 ### example
 
-```code
+```javascript
 const initialState: StoreData = {
  count: 0,
  show: false
