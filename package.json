@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Jarweb/wolverine-state#readme",
   "dependencies": {
-    "immer": "^6.0.3",
+    "immer": "^9.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
